@@ -9,8 +9,8 @@ if (funcionUsr !== "Cobranza" || funcionUsr !== "Administrador") {
     cargarContactabilidad();
 }
 
-function doSearch()
-        {
+function doSearch()       
+{
             const tableReg = document.getElementById('contactabilidad-table');
             const searchText = document.getElementById('search-contactabilidad').value.toLowerCase();
 
@@ -42,7 +42,7 @@ function doSearch()
             if (searchText == "") {
                 lastTR.classList.add("hide");
             }
-        }
+}
 
 function limpiarTabla() {
     const tbody = document.querySelector("tbody");
